@@ -8,12 +8,11 @@ body {
 .text-primary {
     color: #FD6E0A;
 }
-
-.btn-primary {
+button {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
@@ -51,12 +50,13 @@ nav {
 
 nav>ul {
     display: flex;
-    align-items: center;
+    align-items: center;  
 }
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 
 nav a {
@@ -105,16 +105,21 @@ nav a {
 /* About section styles */
 main{
     max-width: 1140px;
-    margin: 0 ,auto;
+    margin: 0 auto;
 }
 main section{
     margin-top: center;
 }
+
 .about {
-    padding: 130px;
-    border-radius: 10px;
-    background: #fff8f3;
-    margin: 130px 0;
+    width: 75%;
+    margin: 0 auto;
+}
+.about-75{
+       |
+        border-radius: 10px;
+        background: #fff8f3;
+        text-align: right;
 }
 .about-info-container{
     display: flex;
@@ -180,6 +185,10 @@ footer{
 }
 .footer-column{
       width:50%;
+}
+
+.social-link {
+    text-align: center;
 }
 
 .social-link a{
